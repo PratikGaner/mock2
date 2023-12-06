@@ -28,7 +28,7 @@ ENV LOG_LEVEL="info,databroker=debug,mock_service=debug"
 # VDB DAPR APP ID
 ENV VEHICLEDATABROKER_DAPR_APP_ID=vehicledatabroker
 
-ENV PYTHONUNBUFFERED=yes
+ENV PYTHONUNBUFFERED=yes 
 
 LABEL org.opencontainers.image.source="https://github.com/eclipse/kuksa.val.services"
 
